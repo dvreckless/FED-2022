@@ -1,0 +1,123 @@
+body {
+    font-family: flexo;
+}
+header {
+    background-color: rgb(240, 242, 245);
+    margin: -1em;
+}
+header img {
+    margin-left: 1em;
+}
+footer{
+    background-color: rgb(31, 29, 29);
+    color: rgb(225, 228, 232);
+    margin: -1em;
+}
+footer h3 {
+    margin-left: 1em;
+}
+footer h4 {
+    margin-left: 2em;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10em;
+    background-color: rgb(31, 29, 29);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3em;
+    color: rgb(225, 228, 232);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(225, 228, 232);
+}
+main section:first-of-type {
+    background-color: rgb(173, 141, 94);
+    color: rgb(240, 242, 245);
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+section:nth-of-type(2) {
+    background-color: rgb(189, 133, 222);
+    color: rgb(240, 242, 245);
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+section:nth-of-type(3) {
+    background-color: rgb(219, 89, 42);
+    color: rgb(240, 242, 245);
+    padding-bottom: 1em;
+    margin-bottom: 3em;   
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+main {
+    display: grid;
+}
+ul {
+    background-color: rgb(54, 54, 54);
+    color: rgb(240, 242, 245);
+    max-width: 100%;
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior: contain auto;
+}
+ul img {
+    max-width: 5em;
+    min-width: 4em;
+}
+section:nth-of-type(5) {
+    background-color: rgb(139, 76, 161);
+    color: rgb(240, 242, 245);
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+section:nth-of-type(6) {
+    background-color: rgb(46, 45, 46);
+    color: rgb(240, 242, 245);
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+h2 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+section p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+section img {
+    border-radius: 1.5%;
+}
+main img:first-of-type {
+    max-width: 100%;
+    height: auto;
+}
