@@ -10,27 +10,31 @@
 <body>
     <header>
         <h1><img src="images/pokemonlogo.png" alt="pokemon logo"></h1>
+        <button class= "dark" onclick="activateDark()">darkmode</button>
         <nav>
+            <button>Menu</button>
             <ul>
-                <li><img src="" alt=""><a href="index.html">home</a></li>
-                <li><img src="" alt="">pokedex</li>
-                <li><img src="" alt="">news</li>
+                <li><a href="index.html">home</a></li>
+                <li>pokedex</li>
+                <li>news</li>
+                <li><button>close</button></li>
             </ul>
         </nav>
     </header>
     <main class="anders">
         <h1>Pokedex</h1>
-        <section>
+        <section class="head">
             <section>
                 <h2>name or number</h2>
-                <input type="text" placeholder=" ">
+                <input type="text" placeholder="search pokedex">
+                <input type="submit">
                 <p>Use the advanced search to explore Pokemon by type, weakness, ability and more!</p>
             </section>
             <section>
                 <h3>Search for a Pokemon by name or using its national Pokedex number.</h3>
             </section>
         </section>
-        <section>
+        <section class="pokemon">
             <section>
                 <img src="images/bulbasaur.png" alt="Bulbasaur pokedex number 001">
                 <p>#001</p>
@@ -77,6 +81,9 @@
                 <h4>Blastoise</h4>
             </section>
         </section>
+        <section>
+            <button>Load more Pokemon</button>
+        </section>
     </main>
     <footer>
         <section>
@@ -92,5 +99,7 @@
             <a href="https://nl.pinterest.com/pokemon/"><img src="images/pinterest.png" alt="pokemon pinterest"></a>
         </section>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

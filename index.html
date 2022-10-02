@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
     <link rel="stylesheet" href="stijl.css">
-    <link href="//db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo" rel="stylesheet" type="text/css"/>
 </head>
-<body background="images/sitebackground.jpeg">
+<body>
     <header>
         <h1><img src="images/pokemonlogo.png" alt="pokemon logo"></h1>
+        <button class= "dark" onclick="activateDark()">darkmode</button>
         <nav>
+            <button>Menu</button>
             <ul>
-                <li><img src="" alt="">home</li>
-                <li><img src="" alt=""><a href="pokedex.html">pokedex</a></li>
-                <li><img src="" alt="">news</li>
+                <li>home</li>
+                <li><a href="pokedex.html">pokedex</a></li>
+                <li>news</li>
+                <li><button>close</button></li>
             </ul>
-            
         </nav>
     </header>
-    <main>
+    <main class="start">
         <section>
             <img src="images/scarletvioletpromo.jpeg" alt="pokemon scarlet and pokemon violet promo art">
             <h2>See the new Pokemon Scarlet and Pokemon Violet trailer!</h2>
@@ -38,18 +39,26 @@
         <section>
             <h2>Featured Pokemon</h2>
             <ul>
-                <li><img src="images/mudkip.png" alt="mudkip pokedex number 258">Mudkip</li>
-                <li><img src="images/chewtle.png" alt="chewtle pokedex number 833">Chewtle</li>
-                <li><img src="images/darumaka.png" alt="darumaka pokedex number 554">Darumaka</li>
-                <li><img src="images/grotle.png" alt="grotle pokedex number 388">Grotle</li>
-                <li><img src="images/inkay.png" alt="inkay pokedex number 686">Inkay</li>
-                <li><img src="images/jirachi.png" alt="jirachi pokedex number 385">Jirachi</li>
-                <li><img src="images/komala.png" alt="komala pokedex number 775">Komala</li>
-                <li><img src="images/polteageist.png" alt="polteageist pokedex number 855">Polteageist</li>
-                <li><img src="images/sudowoodo.png" alt="sudowoodo pokedex number 185">Sudowoodo</li>
-                <li><img src="images/tangela.png" alt="tangela pokedex number 114">Tangela</li>
+                <div class="zoom"><li><img src="images/mudkip.png" alt="mudkip pokedex number 258">Mudkip</li></div>
+                <div class="zoom"><li><img src="images/chewtle.png" alt="chewtle pokedex number 833">Chewtle</li></div>
+                <div class="zoom"><li><img src="images/darumaka.png" alt="darumaka pokedex number 554">Darumaka</li></div>
+                <div class="zoom"><li><img src="images/grotle.png" alt="grotle pokedex number 388">Grotle</li></div>
+                <div class="zoom"><li><img src="images/inkay.png" alt="inkay pokedex number 686">Inkay</li></div>
+                <div class="zoom"><li><img src="images/jirachi.png" alt="jirachi pokedex number 385">Jirachi</li></div>
+                <div class="zoom"><li><img src="images/komala.png" alt="komala pokedex number 775">Komala</li></div>
+                <div class="zoom"><li><img src="images/polteageist.png" alt="polteageist pokedex number 855">Polteageist</li></div>
+                <div class="zoom"><li><img src="images/sudowoodo.png" alt="sudowoodo pokedex number 185">Sudowoodo</li></div>
+                <div class="zoom"><li><img src="images/tangela.png" alt="tangela pokedex number 114">Tangela</li></div>
             </ul>
         </section>
+        <div class="item">
+            <div class="hover">
+                <div class="laser"></div>
+            </div>
+            <div class="click">
+                <div class="claser"></div>
+            </div>
+        </div>
         <section>
             <img src="images/clefairycards.png" alt="clefairy cards">
             <h2>Look back at Clefairy's long history in the TGC</h2>
@@ -57,6 +66,11 @@
         <section>
             <img src="images/pokemonwatch.jpeg" alt="three pokemon themed watches">
             <h2>It's a good time for pokemon</h2>
+        </section>
+        <section>
+            <img src="images/pokemonunite.gif" alt="pokemon unite gameplay preview">
+            <h2>A tour of Theia sky ruins</h2>
+            <p>Get to know the ins and outs of the awesome new battleground in pokemon UNITE.</p>
         </section>
     </main>
     <footer>
@@ -73,5 +87,7 @@
             <a href="https://nl.pinterest.com/pokemon/"><img src="images/pinterest.png" alt="pokemon pinterest"></a>
         </section>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
