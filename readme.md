@@ -134,4 +134,4 @@ de site is bijna af op een paar kleine dingetjes na, ik heb hard gewerkt de afge
 * mijn tweede page iets uitbreiden
 
 ## na de feedback
-na deze feedback ben ik gaan kijken naar mijn site en begon ik met aanpassingen maken aan de buttons, tekst en tweede page. ook heb ik gewerkt aan de vormgeving van mijn hamburger menu. 
+na deze feedback ben ik gaan kijken naar mijn site en begon ik met aanpassingen maken aan de buttons, tekst en tweede page. ook heb ik gewerkt aan de vormgeving van mijn hamburger menu. ik heb aanpassingen gemaakt aan de darkmode feature, waardoor nu niet alleen de achtergrond veranderd maar ook de tekst kleur. ik heb alle buttons een hover mode gegeven waardoor ze er minder saai en plat uitzien. 
