@@ -125,3 +125,13 @@ de site is bijna af op een paar kleine dingetjes na, ik heb hard gewerkt de afge
 ### **dit was lastig/is niet gelukt:**
 * JavaScript blijft een van mijn struggles tijdens coderen
 * een goede planning maken en volgen vond ik ook een beetje lastig ivm werk en andere lessen.
+
+## **eindgesprek**
+
+### Feedback
+* ik moet wat meer aandacht besteden aan de vormgeving van de site
+* ik moet wat uitgebreider reflecteren in mijn readme
+* mijn tweede page iets uitbreiden
+
+## na de feedback
+na deze feedback ben ik gaan kijken naar mijn site en begon ik met aanpassingen maken aan de buttons, tekst en tweede page. ook heb ik gewerkt aan de vormgeving van mijn hamburger menu. 
